@@ -1,0 +1,126 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+.responsive-image{
+    width: 100%;
+    max-height: auto;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 10px;
+    }
+    .registration-title{
+        font-size: 24px;
+    }
+    .personal-info-title {
+        font-size: 24px;
+    }
+    .response-message{
+        font-size: 24px;
+    }
+    .submit-button, .next-button, .response-button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .container{
+        padding: 20px;
+    }
+}
+
+/* .response-message{
+    text-align: center;
+}
+.responsive-button{
+    display: block;
+    margin: 0 auto;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*selected tag{
+    property : value
+}
+*/
+/* body {
+    background: url(namie.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    position: relative;
+} */
+/* 
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: -0.40px;
+    left: 0;
+    background-color: rgba(62, 61, 61, 0.5);
+    z-index: -1;
+} */
+/* 
+.signUpBox {
+    background: rgba(2, 94, 25, 0.9);
+    background-position: 0%;
+    width: 300px;    
+}
+
+form{
+    
+    width: 250px;
+    margin-top: -5px;
+}
+input{
+    width: 240px;
+    text-align: center;
+    background: turquoise;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 0;
+    border-bottom: 3px solid white;
+
+    outline: none;
+    height: 30px;
+
+}
+h1{
+    color: antiquewhite;
+
+}
+h3{
+    color: antiquewhite;
+} */
